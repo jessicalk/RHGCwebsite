@@ -3,82 +3,112 @@
 	<head>
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
-    	<meta name="keywords" content="one, two, three">
+					<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title>River Hill Garden Center</title>
 
 <!-- 		<link rel="stylesheet" href="css/reset.css"> -->
-		<link rel="stylesheet" href="css/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" href="css/homepagestyle.css">
+
 	</head>
 
-	<body class="container">
-		<header>
+<body class="container">
+		<header class='title_box'>
 
-			<h1 class='main_logo'><span><a href="index.html">River Hill Garden Center</a></span></h1>
-			<nav>
-				<ul class='nav_menu'>
-					<li><a href="AboutUs.html">About Us</a></li>
-					<li><a href="Products.html">Products & Services</a></li>
-					<li><a href="Events.html">Events</a></li>
-					<li><a href="InsideRHGC.html">Inside RHGC</a></li>
-					<li><a href="ContactUs.html">Contact Us</a></li>
-				</ul>
+			<a href="index.html"><h1 class='main_logo'><span>River Hill Garden Center</span></h1></a>
+
+			<nav class="navbar navbar-inverse">
+
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>                        
+						</button>
+						<a class="navbar-brand" href="index.html">River Hill Garden Center</a>
+					</div>
+
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="AboutUs.html">About Us<span class="caret"></span></a>
+			 					<ul class="dropdown-menu">
+									<li><a href="OurStory.html">Our Story</a></li>
+									<li><a href="OurPeople.html">Our People</a></li>
+									<li><a href="JoinOurTeam.html">Join Our Team</a></li>
+									<li><a href="GivingBack.html">Giving Back</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="AboutUs.html">Products<span class="caret"></span></a>
+			 					<ul class="dropdown-menu">
+									<li><a href="Gardening.html">Gardening</a></li>
+									<li><a href="OutdoorLiving.html">Outdoor Living</a></li>
+									<li><a href="ChristmasShop.html">Christmas Shop</a></li>
+									<li><a href="Gifts.html">Gifts and Home Decor</a></li>
+									<li><a href="Local.html">Local Vendors</a></li>
+									<li><a href="http://www.riverhilllandscaping.com/">Landscaping</a></li>
+								</ul>
+							</li>
+
+
+							<li class="active"><a href="#">Events</a></li>
+
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Planting Help<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Planting 101</a></li>
+									<li><a href="#">What's Killing Your Plants</a></li>
+									<li><a href="#">Attracting Butterflies and Birds</a></li>
+									<li><a href="#">Repeling Deer and Rabbits</a></li>
+									<li><a href="#">Local Planting Dates</a></li>
+								</ul>
+							</li>
+
+							<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="ContactUs.html">Contact Us<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="HoursDirections.html">Hours and Directions</a></li>
+									<li><a href="#">Donation Requests</a></li>
+									<li><a href="#">New Vendor Opportunities</a></li>
+									<li><a href="#">Designer Trade Application</a></li>
+								</ul>
+							</li>
+
+						</ul>
+					</div>
+				</div>
 			</nav>
 		</header>
+		
+		<section class='tagline'>
+			<h2>Distinctive Style for Distinctive Homes</h2>
+			<p>River Hill Garden Center has been part of the Clarksville community since 1992 and continues to be a family owned and operated business. </p>
+			<p>Inside, you'll find annuals, perennials, trees, shrubs, fresh flowers, patio furniture, a wide range of home décor and gifts, bird supplies, and seasonal Christmas.  Our friendly, educated, and enthusiastic staff thrives when helping customers.  </p>
+		</section>
 
-		<section class='main_image'>
-			<div class="tagline">
-				<h2>Distinctive Style for Distinctive Homes</h2>
-				<p>since 1991</p>
-				<a class="button" href="InsideRHGC">See What We Have to Offer</a>
+		<section class='secondary_photo'>
+			<div class='see_more_photos'>
+				<p>Voted Best Garden Center/Nursery by <span>Howard County Magazine</span> readers for 10 consecutive years!</p>
+				<a class="button" href="InsideRHGC.html">See More Photos of RHGC</a>
 			</div>
 		</section>
 
-<div class="wrapper">
-		<section class="bottom_section_wrapper">
-			<section class="bottom_section">
-				<header>
-					<h3>Plant Tips</h3>
-				</header>
-				<ul>
-					<li>Browse our Bulb Selection</li>
-					<li>Keep your lawn healthy</li>
-					<li>Protect against pests</li>
-					<li>Discover how to attract the right animals</li>
-				</ul>
-				<a class="button" href="#">Learn More</a>
-			</section>
-			
-			<section class="bottom_section">
-				<header>
-					<h3>Your Community</h3>
-				</header>
-				<ul>
-					<li>New Loyalty Program details</li>
-					<li>See how we are giving back</li>
-					<li>Learn about free workshops and special events</li>
-					<li>See pictures from our previous events</li>
-				</ul>
-				<a class="button" href="#">Join With Us</a>
-			</section>
-			
-			<section class="bottom_section">
-				<header>
-					<h3>Purchased Locally</h3>
-				</header>
-				<ul>
-					<li>Check out our quality products</li>
-					<li>See our local vendors list</li>
-					<li>Learn more about the companies we're buying from</li>
-				</ul>
-				<a class="button" href="designers.html">See our Local Vendors</a>
-			</section>
-			
-		</section>
-	</div>
+		<footer>
+			<div class='social_media'>
+				<span class="sm_label">FOLLOW RHGC</span>
+				<a href="https://instagram.com/explore/locations/6218823/" target="_blank"><img src="images/instagram.png" alt="Instagram logo"></a>
+				<a href="https://www.facebook.com/riverhillgardencenter" target="_blank"><img src="images/facebook.png" alt="Facebook logo"></a>
+				<a href="https://www.pinterest.com/riverhillgarden/" target="_blank"><img src="images/pinterest.png" alt="Pinterest logo"></a>
+			</div>
 
+			<p class='clear'>Copyright 2013. River Hill Garden Center. All rights reserved.</p>
+		</footer>
 
+		<script src="js/script.js"></script>
 	</body>
-
-
 </html>
